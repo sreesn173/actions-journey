@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from GitHub Actions"
+      - name: list files
+        run: ls
