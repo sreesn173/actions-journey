@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
-        uses: actions/checkoutv4
+        uses: actions/checkout@v4
       - name: show runner details
         run: |
           uname -a
